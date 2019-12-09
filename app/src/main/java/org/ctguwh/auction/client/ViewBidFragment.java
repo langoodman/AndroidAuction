@@ -18,7 +18,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 /**
- * 历史竞标物品布局视图
+ * 查看自己竞标物品布局视图
  */
 public class ViewBidFragment extends Fragment
 {

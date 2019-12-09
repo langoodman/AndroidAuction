@@ -18,7 +18,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 /**
- * 拍卖物品种类视图
+ * 拍卖物品详细信息的布局
  */
 public class ViewItemFragment extends Fragment
 {
