@@ -32,4 +32,9 @@
 	<string name="kind_desc">种类描述：</string>
 	<string name="item_detail_title">物品详情</string>
 	<string name="you_bid">您的竞价：</string>
+	<string name="register">注册</string>
+	<string name="change">修改</string>
+	<string name="changepass">修改密码</string>
+	<string name="newpass">新密码：</string>
+	<string name="surepass">确认密码</string>
 </resources>

@@ -67,8 +67,6 @@ public class LoginActivity extends Activity
 				{
 					DialogUtil.showDialog(LoginActivity.this,
 							"注册成功，赶快登录吧！", false);
-					// 启动AuctionClientActivity
-//					Intent intent = new Intent(LoginActivity.this, AuctionClientActivity.class);
 					Intent intent = new Intent(LoginActivity.this, LoginActivity.class);
 					startActivity(intent);
 					// 结束该Activity

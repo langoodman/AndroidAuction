@@ -81,6 +81,9 @@ public class AuctionClientActivity extends FragmentActivity
 					// 创建ViewBidFragment
 					fragment = new ViewBidFragment();
 					break;
+				case 6:
+					fragment = new ChangePassFragment();
+					break;
 				case ManageItemFragment.ADD_ITEM:
 					fragment = new AddItemFragment();
 					break;
@@ -151,6 +154,10 @@ public class AuctionClientActivity extends FragmentActivity
 					intent = new Intent(this, ViewBidActivity.class);
 					startActivity(intent);
 					break;
+                case 6:
+                    intent = new Intent(this, ChangePassActivity.class);
+                    startActivity(intent);
+                    break;
 			}
 		}
 	}

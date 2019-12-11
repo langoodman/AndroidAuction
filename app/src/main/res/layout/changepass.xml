@@ -5,20 +5,13 @@
 	android:layout_gravity="center_horizontal"
 	android:stretchColumns="1">
 
-	<ImageView
-		android:layout_width="wrap_content"
-		android:layout_height="wrap_content"
-		android:contentDescription="@string/app_name"
-		android:scaleType="fitCenter"
-		android:src="@drawable/logo" />
-
 	<TextView
 		android:id="@+id/TextView"
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
 		android:gravity="center"
 		android:padding="@dimen/title_padding"
-		android:text="@string/welcome"
+		android:text="@string/changepass"
 		android:textSize="@dimen/label_font_size" />
 	<!-- 输入用户名的行 -->
 	<TableRow>
@@ -26,50 +19,43 @@
 		<TextView
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
-			android:labelFor="@+id/userEditText"
-			android:text="@string/user_name"
+			android:labelFor="@+id/newpass"
+			android:text="@string/newpass"
 			android:textSize="@dimen/label_font_size" />
 
 		<EditText
-			android:id="@+id/userEditText"
+			android:id="@+id/newpass"
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
-			android:inputType="text" />
+			android:inputType="textPassword" />
 	</TableRow>
-	<!-- 输入密码的行 -->
+
 	<TableRow>
 
 		<TextView
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
-			android:labelFor="@+id/pwdEditText"
-			android:text="@string/user_pass"
+			android:labelFor="@+id/surepass"
+			android:text="@string/surepass"
 			android:textSize="@dimen/label_font_size" />
 
 		<EditText
-			android:id="@+id/pwdEditText"
+			android:id="@+id/surepass"
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
 			android:inputType="textPassword"
 			android:text="" />
 	</TableRow>
-	<!-- 定义登录、取消按钮的行 -->
+
 	<LinearLayout
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
 		android:orientation="horizontal">
 		<Button
-			android:id="@+id/bnLogin"
+			android:id="@+id/bnChange"
 			android:layout_width="0dp"
 			android:layout_height="wrap_content"
-			android:text="@string/login"
-			android:layout_weight="1"/>
-
-		<Button
-			android:id="@+id/bnRegister"
-			android:layout_width="0dp"
-			android:layout_height="wrap_content"
-			android:text="@string/register"
+			android:text="@string/change"
 			android:layout_weight="1"/>
 
 		<Button

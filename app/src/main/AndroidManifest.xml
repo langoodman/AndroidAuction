@@ -59,6 +59,10 @@
 			android:name="org.ctguwh.auction.client.AddBidActivity"
 			android:label="@string/item_detail_title">
 		</activity>
+		<activity
+		android:name="org.ctguwh.auction.client.ChangePassActivity"
+		android:label="@string/changepass">
+	</activity>
 	</application>
 
 </manifest>
