@@ -48,6 +48,7 @@ public class ChangePassFragment extends Fragment
 				{
 					// 修改密码
 					String result = changePassword(newPassword, surePassword);
+					System.out.println(Integer.parseInt(result));
 					if (result != null && Integer.parseInt(result) > 0)
 					{
 						DialogUtil.showDialog(getActivity(),
@@ -56,7 +57,7 @@ public class ChangePassFragment extends Fragment
 						startActivity(intent);
 					}
 					else{
-						DialogUtil.showDialog(getActivity(), "服务器响应异常，请稍后再试！", false);
+						DialogUtil.showDialog(getActivity(), "服务器响应异常，请稍后再修改密码！", false);
 					}
 				}
 				catch (Exception e)

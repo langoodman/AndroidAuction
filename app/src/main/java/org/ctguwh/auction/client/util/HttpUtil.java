@@ -26,6 +26,7 @@ public class HttpUtil
 {
 	//api 接口均来自web端，web端已经打包挂在阿里云服务器  采用OkHttp协议
 	public static final String BASE_URL = "http://101.132.71.171:8080/auctionweb/api/";
+//	public static final String BASE_URL = "http://172.25.1.98:8080/auctionweb/api/";
 	private static Map<String, List<Cookie>> cookieStore = new HashMap<>();
 	// 创建线程池
 	private static ExecutorService threadPool = Executors.newFixedThreadPool(30);

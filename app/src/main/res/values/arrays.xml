@@ -8,6 +8,7 @@
 		<item>浏览拍卖物品</item>
 		<item>查看自己的竞标</item>
 		<item>修改密码</item>
+		<item>退出登录</item>
 	</string-array>
 	<string-array name="availTime">
 		<item>一天</item>

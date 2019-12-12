@@ -158,6 +158,10 @@ public class AuctionClientActivity extends FragmentActivity
                     intent = new Intent(this, ChangePassActivity.class);
                     startActivity(intent);
                     break;
+				case 7:
+					intent = new Intent(this, LoginActivity.class);
+					startActivity(intent);
+					break;
 			}
 		}
 	}
